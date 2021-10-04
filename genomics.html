@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html  >
+<head>
+  <!-- Site made with Mobirise Website Builder v5.3.10, https://mobirise.com -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Mobirise v5.3.10, mobirise.com">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <link rel="shortcut icon" href="assets/images/1581600138692.jpg" type="image/x-icon">
+  <meta name="description" content="">
+  
+  
+  <title>Genomics</title>
+  <link rel="stylesheet" href="assets/web/assets/mobirise-icons2/mobirise2.css">
+  <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
+  <link rel="stylesheet" href="assets/tether/tether.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="assets/dropdown/css/style.css">
+  <link rel="stylesheet" href="assets/socicon/css/styles.css">
+  <link rel="stylesheet" href="assets/theme/css/style.css">
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap"></noscript>
+  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+  
+  
+  
+  
+</head>
+<body>
+  
+  <section class="menu menu2 cid-sKLAcfp47P" once="menu" id="menu2-7">
+    
+    <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
+        <div class="container">
+            <div class="navbar-brand">
+                <span class="navbar-logo">
+                    <a href="index.html">
+                        <img src="assets/images/1581600138692.jpg" alt="Mobirise" style="height: 3rem;">
+                    </a>
+                </span>
+                <span class="navbar-caption-wrap"><a class="navbar-caption text-black text-primary display-7" href="index.html">Data Science in Biomedicine</a></span>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true"><li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="mailto:olufemim3@gmail.com">Contacts</a>
+                    </li></ul>
+                
+                <div class="navbar-buttons mbr-section-btn"><a class="btn btn-primary display-4" href="https://forms.gle/8Yi9qKsp832Jedd18" target="_blank">Register</a></div>
+            </div>
+        </div>
+    </nav>
+</section>
+
+<section class="header18 cid-sKLISW9UQb" id="header18-9">
+
+    
+
+    
+
+    <div class="align-center container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-lg-10">
+                <h1 class="mbr-section-title mbr-fonts-style mbr-white mb-3 display-1"><strong>Genomics</strong></h1>
+                
+                <p class="mbr-text mbr-fonts-style mbr-white display-7">
+                    Training Materials</p>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="content5 cid-sKTUfPVDEe" id="content5-m">
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-12">
+                
+                <h4 class="mbr-section-subtitle mbr-fonts-style mb-4 display-5"><strong>Genome Assembly</strong></h4>
+                <p class="mbr-text mbr-fonts-style display-7">
+                    Genome assembly is the process of constructing the original genome from raw, fragmented DNA sequences alone. </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="content5 cid-sKU5wbMu2n" id="content5-o">
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-12">
+                
+                <h4 class="mbr-section-subtitle mbr-fonts-style mb-4 display-7"><strong>The Genome Assembly Pipeline.</strong></h4>
+                <p class="mbr-text mbr-fonts-style display-4"><em>
+                    N/B: This pipeline is created and tested with Unix (Ubuntu 20.0 LTS distro). It should work on any Unix OS as long as the right softwares are installed. See appendix for list. The dataset is an abridged form of the dataset uploaded at ENA. See source in appendix.  </em></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="content17 cid-sKU67JtFQ6" id="content17-q">
+
+    
+
+    
+    
+    <div class="container">
+        
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-12">
+                    
+                    
+                    <div id="bootstrap-toggle" class="toggle-panel accordionStyles tab-content">
+                        <div class="card mb-3">
+                            <div class="card-header" role="tab" id="headingOne">
+                                <a role="button" class="collapsed panel-title text-black" data-toggle="collapse" data-core="" href="#collapse1_16" aria-expanded="false" aria-controls="collapse1">
+                                    <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7"><strong>1.	Create a new folder and check into the folder</strong></h6>
+                                    <span class="sign mbr-iconfont mbri-arrow-down"></span>
+                                </a>
+                            </div>
+                            <div id="collapse1_16" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne">
+                                <div class="panel-body">
+                                    <p class="mbr-fonts-style panel-text display-7"> <code>mkdir nimr_workshop
+<br>cd nimr_workshop&nbsp;</code></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-3">
+                            <div class="card-header" role="tab" id="headingTwo">
+                                <a role="button" class="collapsed panel-title text-black" data-toggle="collapse" data-core="" href="#collapse2_16" aria-expanded="false" aria-controls="collapse2">
+                                    <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7"><strong>2.	Download your dataset (If you have it on another folder, move it to the new folder we created in step 1)</strong></h6>
+                                    <span class="sign mbr-iconfont mbri-arrow-down"></span>
+                                </a>
+
+                            </div>
+                            <div id="collapse2_16" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                <div class="panel-body">
+                                    <p class="mbr-fonts-style panel-text display-7"> <code> $ wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR957/SRR957824/SRR957824_1.fastq.gz
+<br>$ wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR957/SRR957824/SRR957824_2.fastq.gz </code> </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-3">
+                            <div class="card-header" role="tab" id="headingThree">
+                                <a role="button" class="collapsed panel-title text-black" data-toggle="collapse" data-core="" href="#collapse3_16" aria-expanded="false" aria-controls="collapse3">
+                                    <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7"><strong>3.	In your lab note, create a table detailing the metadata of each dataset/file you want to analyze. This would be useful for understanding your file especially during downstream analysis.</strong></h6>
+                                    <span class="sign mbr-iconfont mbri-arrow-down"></span>
+                                </a>
+                            </div>
+                            <div id="collapse3_16" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingThree">
+                                <div class="panel-body">
+                                    <p class="mbr-fonts-style panel-text display-7"> <code>########################</code> </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-3">
+                            <div class="card-header" role="tab" id="headingThree">
+                                <a role="button" class="collapsed panel-title text-black" data-toggle="collapse" data-core="" href="#collapse4_16" aria-expanded="false" aria-controls="collapse4">
+                                    <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7"><strong>4.	Perform initial quality control using fastQC</strong></h6>
+                                    <span class="sign mbr-iconfont mbri-arrow-down"></span>
+                                </a>
+                            </div>
+                            <div id="collapse4_16" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingThree">
+                                <div class="panel-body">
+                                    <p class="mbr-fonts-style panel-text display-7"> <code>$ fastqc SRR957824_500K_R1.fastq.gz
+<br>$ fastqc SRR957824_500K_R2.fastq.gz </code> </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-3">
+                            <div class="card-header" role="tab" id="headingThree">
+                                <a role="button" class="collapsed panel-title text-black" data-toggle="collapse" data-core="" href="#collapse5_16" aria-expanded="false" aria-controls="collapse5">
+                                   <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7"><strong>5.	Open the .html file that was created by step 4. Let us discuss it.</strong></h6>
+                                        <span class="mbr-iconfont mobi-mbri-arrow-down mobi-mbri"></span>
+                                </a>
+                            </div>
+                            <div id="collapse5_16" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingThree">
+                                <div class="panel-body">
+                                    <p class="mbr-fonts-style panel-text display-7">
+                                       <code>#open the html file on your PC</code></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-3">
+                            <div class="card-header" role="tab" id="headingThree">
+                                <a role="button" class="collapsed panel-title text-black" data-toggle="collapse" data-core="" href="#collapse6_16" aria-expanded="false" aria-controls="collapse6">
+                                    <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7"><strong>6.	Based on your result in step 4, determine whether you have to Perform demultiplexing to remove duplicate identifiers using picard.  In our case, we do not have any issue with duplicate reads or RNA artefacts.&nbsp;</strong></h6>
+                                    <span class="mbr-iconfont mobi-mbri-arrow-down mobi-mbri"></span>
+                                </a>
+                            </div>
+                            <div id="collapse6_16" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingThree">
+                                <div class="panel-body">
+                                    <p class="mbr-fonts-style panel-text display-7"> <code># you may need to involve your molecular biologist in this step.
+                                        <br>$ picard </code></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+
+<section class="content17 cid-sKU75YPNNz" id="content17-r">
+
+    
+
+    
+    
+    <div class="container">
+        
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-12">
+                    
+                    
+                    <div id="bootstrap-toggle" class="toggle-panel accordionStyles tab-content">
+                        <div class="card mb-3">
+                            <div class="card-header" role="tab" id="headingOne">
+                                <a role="button" class="collapsed panel-title text-black" data-toggle="collapse" data-core="" href="#collapse1_17" aria-expanded="false" aria-controls="collapse1">
+                                    <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7"><strong>7.	Based on your results in step 4, you may also have to trim the dataset to get rid of the sequencing adapters using trimmomatic.  (Other options include  cutadapt, fastp).</strong></h6>
+                                    <span class="sign mbr-iconfont mbri-arrow-down"></span>
+                                </a>
+                            </div>
+                            <div id="collapse1_17" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne">
+                                <div class="panel-body">
+                                    <p class="mbr-fonts-style panel-text display-7"> <code>$ trimmomatic PE SRR957824_500K_R1.fastq.gz SRR957824_500K_R2.fastq.gz SRR957824_500K_R1_TRIM.fastq.gz SRR957824_500K_R1_TRIM_UNP.fastq.gz SRR957824_500K_R2_TRIM.fastq.gz SRR957824_500K_R2_TRIM_UNP.fastq.gz ILLUMINACLIP:TruSeq3-PE.fa:2:30:10:2:keepBothReads LEADING:3 TRAILING:3 MINLEN:36</code></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-3">
+                            <div class="card-header" role="tab" id="headingTwo">
+                                <a role="button" class="collapsed panel-title text-black" data-toggle="collapse" data-core="" href="#collapse2_17" aria-expanded="false" aria-controls="collapse2">
+                                    <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7"><strong>8.	Now, let’s perform quality control again with fastQC. See the html reports. Let’s discuss. Notice the sharp improvement in the per base quality score.&nbsp;</strong></h6>
+                                    <span class="sign mbr-iconfont mbri-arrow-down"></span>
+                                </a>
+
+                            </div>
+                            <div id="collapse2_17" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                <div class="panel-body">
+                                    <p class="mbr-fonts-style panel-text display-7"> <code>$ fastqc SRR957824_500K_R1_TRIM.fastq.gz
+                                        <br>$ fastqc SRR957824_500K_R2_TRIM.fastq.gz</code></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-3">
+                            <div class="card-header" role="tab" id="headingThree">
+                                <a role="button" class="collapsed panel-title text-black" data-toggle="collapse" data-core="" href="#collapse3_17" aria-expanded="false" aria-controls="collapse3">
+                                    <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7"><strong>9.	Assemble with Velvet (here you have to suggest a k-mer length)</strong></h6>
+                                    <span class="sign mbr-iconfont mbri-arrow-down"></span>
+                                </a>
+                            </div>
+                            <div id="collapse3_17" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingThree">
+                                <div class="panel-body">
+                                    <p class="mbr-fonts-style panel-text display-7"> <code>########################</code></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-3">
+                            <div class="card-header" role="tab" id="headingThree">
+                                <a role="button" class="collapsed panel-title text-black" data-toggle="collapse" data-core="" href="#collapse4_17" aria-expanded="false" aria-controls="collapse4">
+                                    <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7"><strong>10.	Assemble with Spades (automatically determines the optimal k-mer to use by learning on its own based on input data)</strong></h6>
+                                    <span class="sign mbr-iconfont mbri-arrow-down"></span>
+                                </a>
+                            </div>
+                            <div id="collapse4_17" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingThree">
+                                <div class="panel-body">
+                                    <p class="mbr-fonts-style panel-text display-7"> <code>$ spades.py -1 SRR957824_500K_R1_TRIM.fastq.gz -2 SRR957824_500K_R2_TRIM.fastq.gz -o spades_assembly</code></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-3">
+                            <div class="card-header" role="tab" id="headingThree">
+                                <a role="button" class="collapsed panel-title text-black" data-toggle="collapse" data-core="" href="#collapse5_17" aria-expanded="false" aria-controls="collapse5">
+                                   <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7"><strong>11.	For plant enthusiasts, you can check out platanus.&nbsp;</strong></h6>
+                                        <span class="mbr-iconfont mobi-mbri-arrow-down mobi-mbri"></span>
+                                </a>
+                            </div>
+                            <div id="collapse5_17" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingThree">
+                                <div class="panel-body">
+                                    <p class="mbr-fonts-style panel-text display-7"> <code>De novo genome assembler. http://platanus.bio.titech.ac.jp/</code></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-3">
+                            <div class="card-header" role="tab" id="headingThree">
+                                <a role="button" class="collapsed panel-title text-black" data-toggle="collapse" data-core="" href="#collapse6_17" aria-expanded="false" aria-controls="collapse6">
+                                    <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7"><strong>12.	Check the quality of the assemblies with QUAST.</strong></h6>
+                                    <span class="mbr-iconfont mobi-mbri-arrow-down mobi-mbri"></span>
+                                </a>
+                            </div>
+                            <div id="collapse6_17" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingThree">
+                                <div class="panel-body">
+                                    <p class="mbr-fonts-style panel-text display-7"> <code>$ quast.py -o report -m 0 --threads 2 spades_assembly/K77/scaffolds.fasta assembly/contigs.fa</code></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+
+<section class="content17 cid-sKU86NFvIC" id="content17-s">
+
+    
+
+    
+    
+    <div class="container">
+        
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-12">
+                    
+                    
+                    <div id="bootstrap-toggle" class="toggle-panel accordionStyles tab-content">
+                        <div class="card mb-3">
+                            <div class="card-header" role="tab" id="headingOne">
+                                <a role="button" class="collapsed panel-title text-black" data-toggle="collapse" data-core="" href="#collapse1_18" aria-expanded="false" aria-controls="collapse1">
+                                    <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7"><strong>13.	Let’s try to get the identity of the organism</strong></h6>
+                                    <span class="sign mbr-iconfont mbri-arrow-down"></span>
+                                </a>
+                            </div>
+                            <div id="collapse1_18" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne">
+                                <div class="panel-body">
+                                    <p class="mbr-fonts-style panel-text display-7"> <code>
+                                        Copy one of the contigs in contigs.fa or scaffold.fa and paste in BLASTn
+                                    </code></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-3">
+                            <div class="card-header" role="tab" id="headingTwo">
+                                <a role="button" class="collapsed panel-title text-black" data-toggle="collapse" data-core="" href="#collapse2_18" aria-expanded="false" aria-controls="collapse2">
+                                    <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7"><strong>14.	We can try some further visualizations and analysis here: https://edgebioinformatics.org/&nbsp;</strong></h6>
+                                    <span class="sign mbr-iconfont mbri-arrow-down"></span>
+                                </a>
+
+                            </div>
+                            <div id="collapse2_18" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                <div class="panel-body">
+                                    <p class="mbr-fonts-style panel-text display-7"> <code>
+                                        We can try some further visualizations and analysis here: https://edgebioinformatics.org/
+                                    </code></p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+
+<section class="content5 cid-sKU8ZJFcgE" id="content5-t">
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-12">
+                
+                <h4 class="mbr-section-subtitle mbr-fonts-style mb-4 display-5"><strong>Variant Calling</strong></h4>
+                <p class="mbr-text mbr-fonts-style display-7">Now that we have connected fragments of nucleotides into a genome assembly of over thousands of thousands of nucleotides, what can we do with the millions of nucleotides? Let us assume they are from the same population/species (which is true for our case), it makes sense to try to identify what makes the different samples unique or different on its own. But if we find similar variations between a subset in a population, that makes it even more interesting!
+<br>
+<br>How can this be significant? Think of it this way, assuming you have a dataset containing the complete genome sequence of 50 diseased patients and 50 normal patients. Is it possible to use the genomic data alone to declassify the patient states and identify the gene-level variants that determine the disease state and the impact of such variants on the disease process?&nbsp;<br></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="content5 cid-sKU9nLjezq" id="content5-v">
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-12">
+                
+                <h4 class="mbr-section-subtitle mbr-fonts-style mb-4 display-5"><strong>Variant Calling for Diploid Organism: The Pipeline.</strong></h4>
+                <p class="mbr-text mbr-fonts-style display-7">
+                    <em>N/B: This pipeline is created and tested with Unix (Ubuntu 20.0 LTS distro). It should work on any Unix OS as long as the right softwares are installed. See appendix for list.</em>  </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="content17 cid-sKU9i0xfiL" id="content17-u">
+
+    
+
+    
+    
+    <div class="container">
+        
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-12">
+                    
+                    
+                    <div id="bootstrap-toggle" class="toggle-panel accordionStyles tab-content">
+                        <div class="card mb-3">
+                            <div class="card-header" role="tab" id="headingOne">
+                                <a role="button" class="collapsed panel-title text-black" data-toggle="collapse" data-core="" href="#collapse1_20" aria-expanded="false" aria-controls="collapse1">
+                                    <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7"><strong>1.	Create a new folder&nbsp;</strong></h6>
+                                    <span class="sign mbr-iconfont mbri-arrow-down"></span>
+                                </a>
+                            </div>
+                            <div id="collapse1_20" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne">
+                                <div class="panel-body">
+                                    <p class="mbr-fonts-style panel-text display-7"> <code>$ mkdir variant_call</code></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-3">
+                            <div class="card-header" role="tab" id="headingTwo">
+                                <a role="button" class="collapsed panel-title text-black" data-toggle="collapse" data-core="" href="#collapse2_20" aria-expanded="false" aria-controls="collapse2">
+                                    <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7"><strong>2.	Using the same trimmed files from our previous work, let us build a genome map which we will use to identify variants downstream. To identify variants, there must be an assumed truth-base to compare with. Bowtie identifies that in the form of a graph. So we need to create an index file (graph) which we will then use to create a map. First, Let’s download the E.Coli K-12 genome  from NCBI (https://www.ncbi.nlm.nih.gov/nuccore/U00096.2).&nbsp;</strong></h6>
+                                    <span class="sign mbr-iconfont mbri-arrow-down"></span>
+                                </a>
+
+                            </div>
+                            <div id="collapse2_20" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                <div class="panel-body">
+                                    <p class="mbr-fonts-style panel-text display-7">
+                                        <code>
+                                            #visit the NCBI link and export the genbank output as a fasta file <br>$ bowtie2-build e_coli_k_12.fasta e_coli_k_12
+                                        </code>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-3">
+                            <div class="card-header" role="tab" id="headingThree">
+                                <a role="button" class="collapsed panel-title text-black" data-toggle="collapse" data-core="" href="#collapse3_20" aria-expanded="false" aria-controls="collapse3">
+                                    <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7"><strong>3.	Use the index to build a genome map for each sample data and specify the output in the variant_call folder.</strong></h6>
+                                    <span class="sign mbr-iconfont mbri-arrow-down"></span>
+                                </a>
+                            </div>
+                            <div id="collapse3_20" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingThree">
+                                <div class="panel-body">
+                                    <p class="mbr-fonts-style panel-text display-7"><code>
+                                        $ bowtie2 -x e_coli/e_coli_k_12 -1 SRR957824_500K_R1_TRIM.fastq.gz -2 SRR957824_500K_R2_TRIM.fastq.gz -S SRR957824_500K.sam --no-dovetail
+                                    </code></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-3">
+                            <div class="card-header" role="tab" id="headingThree">
+                                <a role="button" class="collapsed panel-title text-black" data-toggle="collapse" data-core="" href="#collapse4_20" aria-expanded="false" aria-controls="collapse4">
+                                    <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7"><strong>4.	We are working with a prokaryotic genome with less genetic complexity. We will use freebayes to identify&nbsp;</strong></h6>
+                                    <span class="sign mbr-iconfont mbri-arrow-down"></span>
+                                </a>
+                            </div>
+                            <div id="collapse4_20" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingThree">
+                                <div class="panel-body">
+                                    <p class="mbr-fonts-style panel-text display-7"><code>
+                                        $ samtools view -S -b SRR957824_500K.sam &gt; SRR957824_500K.bam
+                                        <br>$ samtools sort SRR957824_500K.bam -o SRR957824_500K.sorted.bam
+                                        <br>$ samtools index SRR957824_500K.sorted.bam
+                                        <br># A preview into the variants
+                                        <br>$ samtools tview SRR957824_500K.sorted.bam e_coli_k_12.fasta
+                                    </code></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-3">
+                            <div class="card-header" role="tab" id="headingThree">
+                                <a role="button" class="collapsed panel-title text-black" data-toggle="collapse" data-core="" href="#collapse5_20" aria-expanded="false" aria-controls="collapse5">
+                                   <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7"><strong>5.	Call variants with this file or its compressed form (.bam) using freebayes. Output from freebayes usually requires further annotation.</strong></h6>
+                                        <span class="mbr-iconfont mobi-mbri-arrow-down mobi-mbri"></span>
+                                </a>
+                            </div>
+                            <div id="collapse5_20" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingThree">
+                                <div class="panel-body">
+                                    <p class="mbr-fonts-style panel-text display-7">
+                                       <code>
+                                        $ freebayes -f e_coli_k_12.fasta SRR957824_500K.sorted.bam variant_ecoli.vcf
+                                       </code></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-3">
+                            <div class="card-header" role="tab" id="headingThree">
+                                <a role="button" class="collapsed panel-title text-black" data-toggle="collapse" data-core="" href="#collapse6_20" aria-expanded="false" aria-controls="collapse6">
+                                    <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7"><strong>6.	Call variants with samtools mpileup to generate raw SNPs</strong></h6>
+                                    <span class="mbr-iconfont mobi-mbri-arrow-down mobi-mbri"></span>
+                                </a>
+                            </div>
+                            <div id="collapse6_20" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingThree">
+                                <div class="panel-body">
+                                    <p class="mbr-fonts-style panel-text display-7"><code>
+                                        $ samtools mpileup -uD -f e_coli_k_12.fasta SRR957824_500K.sorted.bam | bcftools view - &gt; variant_ecoli_mpileup.vcf
+                                    </code></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+
+<section class="content17 cid-sKUa9kNJKK" id="content17-w">
+
+    
+
+    
+    
+    <div class="container">
+        
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-12">
+                    
+                    
+                    <div id="bootstrap-toggle" class="toggle-panel accordionStyles tab-content">
+                        <div class="card mb-3">
+                            <div class="card-header" role="tab" id="headingOne">
+                                <a role="button" class="collapsed panel-title text-black" data-toggle="collapse" data-core="" href="#collapse1_22" aria-expanded="false" aria-controls="collapse1">
+                                    <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7"><strong>7.	Let’s do some visualizations. Our BAM and VCF files can be interacted with.&nbsp;</strong></h6>
+                                    <span class="sign mbr-iconfont mbri-arrow-down"></span>
+                                </a>
+                            </div>
+                            <div id="collapse1_22" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne">
+                                <div class="panel-body">
+                                    <p class="mbr-fonts-style panel-text display-7"> <code># https://igv.org/app/</code></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-3">
+                            <div class="card-header" role="tab" id="headingTwo">
+                                <a role="button" class="collapsed panel-title text-black" data-toggle="collapse" data-core="" href="#collapse2_22" aria-expanded="false" aria-controls="collapse2">
+                                    <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7"><strong>9.	View some metrics using vcfstats</strong></h6>
+                                    <span class="sign mbr-iconfont mbri-arrow-down"></span>
+                                </a>
+
+                            </div>
+                            <div id="collapse2_22" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                <div class="panel-body">
+                                    <p class="mbr-fonts-style panel-text display-7"> <code>$ vcfstats </code></p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+
+<section class="footer3 cid-sKLB14ciRf" once="footers" id="footer3-8">
+
+    
+
+    
+
+    <div class="container">
+        <div class="media-container-row align-center mbr-white">
+            <div class="row row-links">
+                <ul class="foot-menu">
+                    
+                    
+                    
+                    
+                    
+                <li class="foot-menu-item mbr-fonts-style display-7"><a href="mailto:olufemim3@gmail.com" class="text-primary">Contacts</a></li><li class="foot-menu-item mbr-fonts-style display-7"><a href="https://nimr.gov.ng/about-us-2/" class="text-primary">About NIMR</a></li></ul>
+            </div>
+            
+            <div class="row row-copirayt">
+                <p class="mbr-text mb-0 mbr-fonts-style mbr-white align-center display-7">© Copyright 2021 NIMR. All Rights Reserved.</p>
+            </div>
+        </div>
+    </div>
+</section><section style="background-color: #fff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif; color:#aaa; font-size:12px; padding: 0; align-items: center; display: flex;"><a href="https://mobirise.site/o" style="flex: 1 1; height: 3rem; padding-left: 1rem;"></a><p style="flex: 0 0 auto; margin:0; padding-right:1rem;">Designed by Wale - <!--a href="https://mobirise.site/l" style="color:#aaa;">More here</a--></p></section><script src="assets/web/assets/jquery/jquery.min.js"></script>  <script src="assets/popper/popper.min.js"></script>  <script src="assets/tether/tether.min.js"></script>  <script src="assets/bootstrap/js/bootstrap.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/dropdown/js/nav-dropdown.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>  <script src="assets/theme/js/script.js"></script>  
+  
+  
+</body>
+</html>
